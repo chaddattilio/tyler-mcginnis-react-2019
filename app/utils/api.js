@@ -8,6 +8,6 @@ export function fetchPopularRepos (language) {
         throw new Error(data.message)
       }
 
-      return data.items
+      return data.itemscom
   })
 }
